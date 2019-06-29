@@ -1,0 +1,39 @@
+body {
+  background: #fff;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  height: 100vh;
+}
+
+.search-icon {
+  color: #a5a7a7;
+  font-size: 25px;
+  line-height: 45px;
+}
+
+#main-input {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: auto;
+  display: inline-block;
+  padding: 10px;
+}
+
+#main-input .search-icon {
+  float: left;
+}
+
+#main-input input {
+  float: left;
+  margin-left: 10px;
+  border: none;
+  font-size: 35px;
+  outline: none;
+  font-family: sans-serif;
+  color: #5c6b6b;
+}
