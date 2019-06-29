@@ -32,7 +32,7 @@
 
 	function parseURL(inputString){
 		const protocolRegex = /^(http:\/\/|https:\/\/)/;
-		const domainRegex = /.+[.]\w+$/;
+		const domainRegex = /.+[.]\w+/;
 		let finalString = inputString;
 
 		if(!domainRegex.test(inputString)){
