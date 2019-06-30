@@ -37,3 +37,21 @@ body {
   font-family: sans-serif;
   color: #5c6b6b;
 }
+
+#autocomplete {
+  font-size: 25px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-43%, 20px);
+}
+
+#autocomplete ul {
+  list-style-type: none;
+  font-family: sans-serif;
+  color: #5c6b6b;
+}
+
+#autocomplete ul li {
+  padding: 10px 0px;
+}
